@@ -5,6 +5,7 @@ var uglify = require('gulp-uglify');
 var buffer = require('vinyl-buffer');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var rename = require('gulp-rename');
 //var fancybox = require('jquery-fancybox');
 
 // Browserify
@@ -23,8 +24,9 @@ gulp.task('browserify', function () {
 gulp.task('styles', function () {
   return gulp.src('./assets/sass/app.scss')
     .pipe(sass({outputStyle: 'compressed', includePaths: ['./node_modules/bootstrap-sass/assets/stylesheets']}))
+    .pipe(rename('style.css'))
     .pipe(autoprefixer('last 2 version', 'ie 8', 'ie 9'))
-    .pipe(gulp.dest(''));
+    .pipe(gulp.dest('css'));
 });
 
 // Watch

@@ -1,6 +1,7 @@
 *.log
 node_modules/
 nbproject/
+assets/scss/
 
 /.htaccess
 /license.txt

@@ -1,3 +1,90 @@
 //@import 'assets/scss/bootstrap';
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/font-awesome-sass/assets/stylesheets/font-awesome';
+
+
+///Maintenance
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.wpm_social ul {
+    margin: 10px 0;
+    max-width: 100%;
+    padding: 0;
+    text-align: right;
+    li {
+         display: inline-block;
+         list-style: none;
+         margin: 5px;
+         opacity: 1;
+    }
+}
+.maintenance{
+    section{
+        margin: 20px 0;
+    }
+    h3{
+        text-transform: uppercase;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    &:not[class*='fa']{
+        font-family: 'Roboto', sans-serif;
+    }
+    > header{
+        text-align: center;
+        h1{
+           text-transform: uppercase; 
+        }
+    }
+    #socialmedia{
+        ul{
+            list-style: none;
+            margin: 0;
+            li{
+                a{
+                    display: table;
+                    color:#fff;
+                    border: 2px #fff solid;
+                    background: rgba(0,0,0,.8);
+                    transition: .3s ease all;
+                    padding: 5px 10px;
+                    margin: 10px 0;
+                    font-size: 1.5em;
+                    &:hover{
+                        color: #000;
+                        background: #fff;
+                        border-color: #000;
+                        text-decoration: none;
+                    }
+                    i{
+                        margin-right: 30px;
+                        //padding-right: 10px;
+                        //border-right: 1px #fff solid;
+                    }
+                } 
+            }
+        }
+        
+    }
+    #content{
+        aside{
+            ul{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    width:50%;
+                }
+            }
+        }
+        main{
+            text-align: right;
+        }
+        p{
+            margin-top: 20px;
+        }
+    }
+}

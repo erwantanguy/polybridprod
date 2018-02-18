@@ -9,6 +9,7 @@
   "author": "Erwan Tanguy",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.3",
     "bootstrap": "^4.0.0",
     "font-awesome-sass": "^4.7.0",
     "jquery": "^3.2.1",

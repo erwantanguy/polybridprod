@@ -34,39 +34,24 @@
                 <h2><?php bloginfo('description'); ?></h2>
             </div>
         </header>
-        <section class="row justify-content-sm-center">
-            <figure class="col-sm-3">
-                <img src="http://polybridprod.fr/wp-content/uploads/2018/02/logo.jpg" alt="logo Polybrid Production">
+        <section id="logo" class="row justify-content-sm-center">
+            <figure class="col-5 col-md-2 d-flex align-items-center">
+                <img src="http://polybridprod.fr/wp-content/uploads/2018/02/polybrid-logo.jpg" alt="logo Polybrid Production">
             </figure>
-            <nav id="socialmedia" class="col-sm-auto">
+            <nav id="socialmedia" class="col-7 col-md-auto d-flex align-items-center">
                 <ul>
-                    <li><a href="https://www.facebook.com/polybrid.polybrid/"><i class="fab fa-facebook"></i> Polybrid Production est sur Facebook</a></li>
-                    <li><a href="https://www.instagram.com/polybrid/"><i class="fab fa-instagram"></i> Polybrid Production est sur Instagram</a></li>
-                    <li><a href="https://www.instagram.com/laerosol_paris/?hl=fr"><i class="fab fa-instagram"></i> L'Aérosol est sur Instagram</a></li>
+                    <li><a href="https://www.facebook.com/polybrid.polybrid/"><i class="fab fa-facebook"></i> Polybrid Production<span class="d-none d-md-inline"> est sur Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/polybrid/"><i class="fab fa-instagram"></i> Polybrid Production<span class="d-none d-md-inline"> est sur Instagram</span></a></li>
+                    <li><a href="https://www.instagram.com/laerosol_paris/?hl=fr"><i class="fab fa-instagram"></i> L'Aérosol<span class="d-none d-md-inline"> est sur Instagram</span></a></li>
                 </ul>
             </nav>
         </section>
-        <section class="row justify-content-sm-center">
-            <iframe src="https://www.youtube.com/embed/9xfLEfIZ_oQ" width="560" height="315" frameborder="0" allowfullscreen=""></iframe>
-        </section>
-        <section id="content" class="row">
-            <aside class="col-sm-5">
-                <h3>Nos événements</h3>
-                <ul>
-                    <li><a href="https://www.facebook.com/Roule-Des-Patins-1070696526397165/﻿"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/PATINS-NOIR-1.svg" alt="Logo Roule des Patins"></a></li>
-                    <li><a href="https://www.facebook.com/festivalparismusic/"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/paris-music-2.svg" alt="logo festival Paris Music"></a></li>
-                    <li><a href="https://www.facebook.com/Rocknrolls-NOT-DEAD-503789889727607/"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/LOGO_RockIsNotDead.jpg" alt="LOGO Rock Is Not Dead"></a></li>
-                    <li><a href="https://www.facebook.com/3672TECHNO/photos/a.668029896608958.1073741827.666639156748032/1114521261959817/?type=1&theater"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/3672-techno-4.svg" alt="logo 3672 Techno"></a></li>
-                </ul>
-                <p>
-                    Pour info et programmation > <a href="mailto:info@polybridprod.com">info@polybridprod.com</a>
-                </p>
-            </aside>
+        <section id="content" class="row justify-content-sm-center">
             <main class="col-sm-7">
                 <h3>Notre lieu</h3>
-                <div class="row justify-content-end">
+                <div class="row justify-content-sm-center">
                     <figure class="col-sm-6">
-                        <a href="http://www.laerosol.fr/"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/lAerosol-nb.jpg" alt="logo Aérosol"></a>
+                        <a href="http://www.laerosol.fr/"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/lAerosol.jpg" alt="logo Aérosol"></a>
                     </figure>
                 </div>
                 <p>
@@ -76,6 +61,26 @@
                     Pour info et programmation > <a href="mailto:info@polybridprod.com">info@polybridprod.com</a>
                 </p>
             </main>
+            <aside class="col-sm-7 row justify-content-sm-center">
+                <h3>Nos événements</h3>
+                <ul class="col-sm-8 d-flex align-items-center">
+                    <li><a href="https://www.facebook.com/3672TECHNO/photos/a.668029896608958.1073741827.666639156748032/1114521261959817/?type=1&theater"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/3672-techno-4.svg" alt="logo 3672 Techno"></a></li>
+                    <li><a href="https://www.facebook.com/festivalparismusic/"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/paris-music-1.svg" alt="logo festival Paris Music"></a></li>
+                    <li><a href="https://www.facebook.com/Roule-Des-Patins-1070696526397165/﻿"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/rouleDesPatinsRouge.jpg" alt="Logo Roule des Patins"></a></li>
+                    <li><a href="https://www.facebook.com/Rocknrolls-NOT-DEAD-503789889727607/"><img src="http://polybridprod.fr/wp-content/uploads/2018/02/LOGO_RockIsNotDead.jpg" alt="LOGO Rock Is Not Dead"></a></li>
+                </ul>
+                <p>
+                    Pour info et programmation > <a href="mailto:info@polybridprod.com">info@polybridprod.com</a>
+                </p>
+            </aside>
+        </section>
+        <section class="row justify-content-sm-center">
+            <h3 class="col-sm-7">Nos vidéos</h3>
+            <div class="embed-responsive embed-responsive-16by9 col-sm-7">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/videoseries?list=PLVAGsiNm1MBKxnMlYxNRE_0NvjJELy0GO" frameborder="0" allowfullscreen=""></iframe>
+</div>
+            <p class="col-sm-7"><i class="fab fa-facebook"></i> Et découvrir aussi les <a href="https://www.facebook.com/pg/laerosolparis/videos/">vidéos de L’Aérosol sur Facebook</a></p>
+            
         </section>
 <script type='text/javascript' src='http://polybridprod.fr/wp-content/themes/polybridprod/bundle.js?ver=4.9.4'></script>    
 </body>

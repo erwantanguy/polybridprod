@@ -5,6 +5,8 @@
 
 ///Maintenance
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+//@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
 .wpm_social ul {
     margin: 10px 0;
     max-width: 100%;
@@ -19,10 +21,24 @@
 }
 .maintenance{
     section{
-        margin: 20px 0;
+        margin: 50px 0;
+        &#logo{
+            figure{
+                margin: 0;
+            }
+        }
+    }
+    h1,h2,h3{
+        //font-family: 'Orbitron', sans-serif;
+        font-family: 'Bubbler One', sans-serif;
+    }
+    h1,h3{
+        color:#007bff;
     }
     h3{
         text-transform: uppercase;
+        font-size: 2.8em;
+        text-align: center;
     }
     img{
         max-width: 100%;
@@ -35,6 +51,7 @@
         text-align: center;
         h1{
            text-transform: uppercase; 
+           font-size: 3.95rem;
         }
     }
     #socialmedia{
@@ -42,25 +59,36 @@
             list-style: none;
             margin: 0;
             li{
+                &:first-child{
+                        a{margin-top: 0;}
+                    }
+                    &:last-child{
+                        a{margin-bottom: 0;}
+                    }
                 a{
                     display: table;
-                    color:#fff;
-                    border: 2px #fff solid;
-                    background: rgba(0,0,0,.8);
+                    color:#007bff;
+                    border: 2px #007bff solid;
+                    background: #fff;
                     transition: .3s ease all;
                     padding: 5px 10px;
-                    margin: 10px 0;
-                    font-size: 1.5em;
+                    margin: 34px 0;
+                    font-size: 1.2em;//1.5em;
                     &:hover{
-                        color: #000;
-                        background: #fff;
-                        border-color: #000;
+                        color: #fff;
+                        background: #007bff;
+                        //border-color: #fff;
                         text-decoration: none;
                     }
                     i{
-                        margin-right: 30px;
+                        margin-right: 15px;
                         //padding-right: 10px;
                         //border-right: 1px #fff solid;
+                    }
+                    @include media-breakpoint-only(xs) {
+                        span{
+                            @include invisible(hidden);
+                        }
                     }
                 } 
             }
@@ -69,6 +97,7 @@
     }
     #content{
         aside{
+            text-align: center;
             ul{
                 list-style: none;
                 margin: 0;
@@ -81,10 +110,15 @@
             }
         }
         main{
-            text-align: right;
+            margin-bottom: 50px;
+            //text-align: right;
+            text-align: center;
         }
         p{
-            margin-top: 20px;
+            margin: 0;
+            &:first-of-type{
+                margin-top: 20px;
+            }
         }
     }
 }

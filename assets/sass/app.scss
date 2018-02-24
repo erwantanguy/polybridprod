@@ -1,7 +1,7 @@
 //@import 'assets/scss/bootstrap';
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'node_modules/font-awesome-sass/assets/stylesheets/font-awesome';
-
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
 
 ///Maintenance
 @import url('https://fonts.googleapis.com/css?family=Roboto');
@@ -30,7 +30,8 @@
     }
     h1,h2,h3{
         //font-family: 'Orbitron', sans-serif;
-        font-family: 'Bubbler One', sans-serif;
+        //font-family: 'Bubbler One', sans-serif;
+        font-family: 'Krona One', sans-serif;
     }
     h1,h3{
         color:#007bff;
@@ -51,7 +52,7 @@
         text-align: center;
         h1{
            text-transform: uppercase; 
-           font-size: 3.95rem;
+           font-size: 3.63rem;
         }
     }
     #socialmedia{
@@ -72,7 +73,7 @@
                     background: #fff;
                     transition: .3s ease all;
                     padding: 5px 10px;
-                    margin: 34px 0;
+                    margin: 47px 0;
                     font-size: 1.2em;//1.5em;
                     &:hover{
                         color: #fff;

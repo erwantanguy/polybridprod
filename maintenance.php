@@ -35,13 +35,13 @@
             </div>
         </header>
         <section id="logo" class="row justify-content-sm-center">
-            <figure class="col-5 col-md-3 d-flex align-items-center">
+            <figure class="col-6 col-md-3 d-flex align-items-center">
                 <img src="http://polybridprod.fr/wp-content/uploads/2018/02/polybrid-logo.jpg" alt="logo Polybrid Production">
             </figure>
-            <nav id="socialmedia" class="col-7 col-md-auto d-flex align-items-center">
+            <nav id="socialmedia" class="col-6 col-md-auto d-flex align-items-center">
                 <ul>
-                    <li><a href="https://www.facebook.com/polybrid.polybrid/" target="_blank"><i class="fab fa-facebook"></i> Polybrid Production<span class="d-none d-md-inline"> est sur Facebook</span></a></li>
-                    <li><a href="https://www.instagram.com/polybrid/" target="_blank"><i class="fab fa-instagram"></i> Polybrid Production<span class="d-none d-md-inline"> est sur Instagram</span></a></li>
+                    <li><a href="https://www.facebook.com/polybrid.polybrid/" target="_blank"><i class="fab fa-facebook"></i> Polybrid<span class="d-none d-md-inline"> Production est sur Facebook</span></a></li>
+                    <li><a href="https://www.instagram.com/polybrid/" target="_blank"><i class="fab fa-instagram"></i> Polybrid<span class="d-none d-md-inline"> Production est sur Instagram</span></a></li>
                     <li>
                         <a href="https://www.facebook.com/laerosolparis/" target="_blank"><i class="fab fa-facebook"></i> L'Aérosol<span class="d-none d-md-inline"> est sur Facebook</span></a>
                     </li>

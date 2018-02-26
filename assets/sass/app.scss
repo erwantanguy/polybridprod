@@ -82,7 +82,7 @@
                         text-decoration: none;
                     }
                     i{
-                        margin-right: 15px;
+                        margin-right:5px;
                         //padding-right: 10px;
                         //border-right: 1px #fff solid;
                     }
@@ -91,7 +91,12 @@
                             @include invisible(hidden);
                         }
                     }
-                } 
+                }
+                @include media-breakpoint-only(xs){
+                    a{
+                        margin: 27px 0;
+                    }
+                }
             }
         }
         
@@ -119,6 +124,25 @@
             margin: 0;
             &:first-of-type{
                 margin-top: 20px;
+            }
+        }
+    }
+    @include media-breakpoint-only(xs) {
+        *{
+            //word-wrap:break-word;
+            //hyphens: auto;
+        }
+        & > header{
+            h1{
+                font-size: 2rem;
+                //word-wrap:break-word;
+                //hyphens: auto;
+            }
+            h3{
+                font-size: 1.7rem;
+            }
+            h2{
+                font-size: 1.3rem;
             }
         }
     }

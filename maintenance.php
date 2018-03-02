@@ -53,8 +53,8 @@
             <main class="col-sm-7">
                 <h3>Notre lieu</h3>
                 <div class="row justify-content-sm-center">
-                    <figure class="col-sm-6">
-                        <img src="http://polybridprod.fr/wp-content/uploads/2018/02/lAerosol-nb.jpg" alt="logo Aérosol">
+                    <figure class="col-sm-12">
+                        <img src="http://polybridprod.fr/wp-content/uploads/2018/02/aerosol-v2-05.png" alt="logo Aérosol">
                     </figure>
                 </div>
                 <p>
